@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Array</title>
+</head>
+
+<body>
+
+</body>
+<script>
+    //task-1:Task 1: Declare an array of fruits (["apple", "banana", "cherry"]). Use JavaScript to:
+    //  Add a fruit to the end of the array.
+    //  Remove the first fruit from the array.
+    //  Log the modified array to the console.
+
+    let fruit = ["Apple", "Banana", "Cherry"];
+    fruit.push("Mango");
+    fruit.shift();
+    console.log(fruit);
+
+    //task-2:Task 2: Write a program to find the sum of all elements in an array of numbers
+
+    let num=[10,20,30,40];
+
+    let sum=0;
+    for (let i=0; i<num.length;i++){
+        sum = sum +num[i];
+    }
+    console.log("Sum is " +sum);
+</script>
+
+</html>
